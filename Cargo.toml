@@ -253,7 +253,7 @@ allocator-api2 = "0.2.21"
 allsorts = { version = "0.14.0", default-features = false, features = [
   "flate2_rust",
 ] }
-anyhow = "1.0.100"
+anyhow = "1.0.103"
 async-trait = "0.1.64"
 base64 = "0.22.1"
 bincode = { version = "2.0.1", features = ["serde"] }
@@ -371,7 +371,7 @@ windows-sys = "0.60"
 uuid = "1.18.1"
 vergen = { version = "9.0.6", features = ["cargo"] }
 vergen-gitcl = { version = "1.0.8", features = ["cargo"] }
-webbrowser = "1.0.6"
+webbrowser = "1.2.2"
 
 [patch.crates-io]
 bincode = { git = "https://github.com/bgw/bincode.git", branch = "bgw/patches" }
